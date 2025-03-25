@@ -1,0 +1,17 @@
+/* @import "tailwindcss"; */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes: light --default;
+}
+
+/* dark light */
+
+* {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
