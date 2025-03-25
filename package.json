@@ -20,5 +20,8 @@
   "devDependencies": {
     "apexcharts": "^4.5.0",
     "vue3-apexcharts": "^1.8.0"
+  },
+  "engines": {
+    "node": ">=18.16.0 < 20.0.0"
   }
 }
