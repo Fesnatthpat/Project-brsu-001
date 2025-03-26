@@ -44,7 +44,7 @@
                                     <span>ชื่อเจ้าของโครงงาน: นายณัฐภัทร ภูมิเมฆ</span>
                                     <span>ชื่ออาจารย์ที่ปรึกษา: ดร.เกษม ตริตระการ</span>
                                     <div class="mt-2">
-                                        <div class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</div>
+                                        <NuxtLink to="/Projects" class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@
                                     <span>ชื่อเจ้าของโครงงาน: นายณัฐภัทร ภูมิเมฆ</span>
                                     <span>ชื่ออาจารย์ที่ปรึกษา: ดร.เกษม ตริตระการ</span>
                                     <div class="mt-2">
-                                        <div class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</div>
+                                        <NuxtLink to="/Projects" class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@
                                     <span>ชื่อเจ้าของโครงงาน: นายณัฐภัทร ภูมิเมฆ</span>
                                     <span>ชื่ออาจารย์ที่ปรึกษา: ดร.เกษม ตริตระการ</span>
                                     <div class="mt-2">
-                                        <div class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</div>
+                                        <NuxtLink to="/Projects" class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@
                                     <span>ชื่อเจ้าของโครงงาน: นายณัฐภัทร ภูมิเมฆ</span>
                                     <span>ชื่ออาจารย์ที่ปรึกษา: ดร.เกษม ตริตระการ</span>
                                     <div class="mt-2">
-                                        <div class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</div>
+                                        <NuxtLink to="/Projects" class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@
                                     <span>ชื่อเจ้าของโครงงาน: นายณัฐภัทร ภูมิเมฆ</span>
                                     <span>ชื่ออาจารย์ที่ปรึกษา: ดร.เกษม ตริตระการ</span>
                                     <div class="mt-2">
-                                        <div class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</div>
+                                        <NuxtLink to="/Projects" class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@
                                     <span>ชื่อเจ้าของโครงงาน: นายณัฐภัทร ภูมิเมฆ</span>
                                     <span>ชื่ออาจารย์ที่ปรึกษา: ดร.เกษม ตริตระการ</span>
                                     <div class="mt-2">
-                                        <div class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</div>
+                                        <NuxtLink to="/Projects" class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@
                                     <span>ชื่อเจ้าของโครงงาน: นายณัฐภัทร ภูมิเมฆ</span>
                                     <span>ชื่ออาจารย์ที่ปรึกษา: ดร.เกษม ตริตระการ</span>
                                     <div class="mt-2">
-                                        <div class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</div>
+                                        <NuxtLink to="/Projects" class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@
                                     <span>ชื่อเจ้าของโครงงาน: นายณัฐภัทร ภูมิเมฆ</span>
                                     <span>ชื่ออาจารย์ที่ปรึกษา: ดร.เกษม ตริตระการ</span>
                                     <div class="mt-2">
-                                        <div class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</div>
+                                        <NuxtLink to="/Projects" class="btn bg-[#1c66d6] text-white w-full">อ่านเพิ่มเติม</NuxtLink>
                                     </div>
                                 </div>
                             </div>
