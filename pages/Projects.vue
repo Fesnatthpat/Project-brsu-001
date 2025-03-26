@@ -5,7 +5,7 @@
 <template>
     <div class="flex justify-center">
         <div class="m-5">
-            <div class="text-lg font-bold underline-offset-3 underline">
+            <div class="text-2xl font-bold underline-offset-3 underline mb-2">
                 ระบบบริหารจัดการโครงงานสาขาวิทยาการคอมพิวเตอร์
             </div>
             <!-- box-items-con -->
