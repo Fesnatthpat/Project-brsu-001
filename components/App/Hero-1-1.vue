@@ -15,8 +15,8 @@ const changeSlide = (i: number) => current.value = (i + slides.length) % slides.
 <template>
     <!-- Hero Section -->
     <div class="flex justify-center items-center min-h-screen w-full mt-5 lg:mt-0">
-        <div class="max-w-[1300px] w-full">
-            <div class="grid grid-cols-1 p-4 lg:grid-cols-3 gap-4 w-full">
+        <div class=" bg-gradient-to-t from-[#a9c9fb] to-[#1c66d6] rounded-md max-w-[1300px] w-full">
+            <div class="grid grid-cols-1 p-4 lg:grid-cols-3 gap-4 w-full lg:p-10">
                 <!-- box1 -->
                 <div class=" lg:col-span-2 w-full">
                     <div class="flex flex-col gap-y-4">
@@ -51,7 +51,7 @@ const changeSlide = (i: number) => current.value = (i + slides.length) % slides.
                             </button>
                         </div>
                         <!-- items-row -->
-                        <div class="ring rounded-md w-full h-auto lg:h-[275px]">
+                        <div class="ring rounded-md w-full h-auto lg:h-[275px] bg-white">
                             <div class="m-2">
                                 <div class="grid grid-cols-2 gap-3">
                                     <!-- box-items -->
@@ -72,7 +72,7 @@ const changeSlide = (i: number) => current.value = (i + slides.length) % slides.
                     </div>
                 </div>
                 <!-- box2 -->
-                <div class=" p-4 w-full rounded-md  ring">
+                <div class="bg-white p-4 w-full rounded-md  ring">
                     <div class="flex justify-between items-center mb-3">
                         <div class="">
                             <h2 class="text-[19px] font-bold">โครงงานคอมพิวเตอร์</h2>
