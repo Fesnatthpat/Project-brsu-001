@@ -29,7 +29,7 @@ const changeSlide = (i: number) => current.value = (i + slides.length) % slides.
                             </div>
                             <!-- bg Gradient -->
                             <div
-                                class="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-[#1c66d6] to-transparent">
+                                class="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-[#bdd7ff] to-transparent">
                             </div>
 
                             <!-- Navigation -->
