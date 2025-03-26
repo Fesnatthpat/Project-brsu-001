@@ -54,7 +54,7 @@ onUnmounted(() => {
                 <!-- dropdown -->
                 <div v-show="isOpenMenu"
                     class="h-auto w-[200px] rounded-[5px] bg-[#cde1ff] p-2 text-center absolute left-0 top-12 z-50 overflow-hidden transition-all duration-300 ease-in-out menu-dropdown"
-                    :class="{ 'max-h-0 opacity-0': !isOpenMenu, 'max-h-[200px] opacity-100': isOpenMenu }">
+                    :class="{ 'max-h-0 opacity-0': !isOpenMenu, 'max-h-[250px] opacity-100': isOpenMenu }">
                     <div class="gap-3 flex flex-col">
                         <NuxtLink to="/" class="btn btn-sm">หน้าหลัก</NuxtLink>
                         <NuxtLink to="/Page-Project" class="btn btn-sm">หน้าโครงงาน</NuxtLink>
@@ -68,7 +68,7 @@ onUnmounted(() => {
         <!-- menu-right -->
         <div class="flex items-center gap-[100px]">
             <!-- ช่องค้นหา -->
-            <div class="w-[300px] relative hidden lg:flex">
+            <div class="w-[300px] relative hidden">
                 <div class="relative">
                     <input
                         class="w-full bg-white rounded-[5.5px] p-2 pr-10 text-black placeholder-gray-500 focus:outline-none"

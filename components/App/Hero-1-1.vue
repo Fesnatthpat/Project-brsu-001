@@ -55,12 +55,15 @@ const changeSlide = (i: number) => current.value = (i + slides.length) % slides.
                             <div class="m-2">
                                 <div class="grid grid-cols-2 gap-3">
                                     <!-- box-items -->
-                                    <div v-for="i in 4" :key="i" class=" w-full h-auto lg:h-[120px] rounded-md ring p-1">
+                                    <div v-for="i in 4" :key="i"
+                                        class=" w-full h-auto lg:h-[120px] rounded-md ring p-1">
                                         <div class="px-2">
                                             <h2>โครงงานคอมพิวเตอร์</h2>
                                         </div>
                                         <div class="mt-10 p-2">
-                                            <a class="btn btn-sm btn-primary" href="">ดูทั้งหมด</a>
+                                            <NuxtLink to="/All-Pj">
+                                                <a class="btn btn-sm btn-primary cursor-pointer" href="">ดูทั้งหมด</a>
+                                            </NuxtLink>
                                         </div>
                                     </div>
                                 </div>
@@ -75,7 +78,11 @@ const changeSlide = (i: number) => current.value = (i + slides.length) % slides.
                             <h2 class="text-[19px] font-bold">โครงงานคอมพิวเตอร์</h2>
                         </div>
                         <div class="">
-                            <span class="text-primary underline">ดูทั้งหมด</span>
+                            <NuxtLink to="/All-Pj" class="text-primary underline">
+                                ดูทั้งหมด
+                                
+                            </NuxtLink>
+                            
                         </div>
                     </div>
                     <div class="flex flex-col gap-y-2">
@@ -85,7 +92,9 @@ const changeSlide = (i: number) => current.value = (i + slides.length) % slides.
                                 <h2>โครงงานคอมพิวเตอร์</h2>
                             </div>
                             <div class="mt-3 p-2">
-                                <a class="btn btn-sm btn-primary" href="">ดูทั้งหมด</a>
+                                <NuxtLink to="/All-Pj">
+                                    <a class="btn btn-sm btn-primary cursor-pointer" href="">ดูทั้งหมด</a>
+                                </NuxtLink>
                             </div>
                         </div>
                     </div>

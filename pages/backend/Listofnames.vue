@@ -62,7 +62,7 @@ useHead({
         </div>
 
         <!-- Responsive List for Small Screens -->
-        <div class="md:hidden mt-4">
+        <div class="lg:hidden mt-4">
             <div v-for="(student, index) in students" :key="index" class="border p-3 mb-2 rounded-lg shadow-sm">
                 <p class="font-bold text-gray-700">#{{ index + 1 }} - {{ student.id }}</p>
                 <p class="text-gray-600">{{ student.name }}</p>
