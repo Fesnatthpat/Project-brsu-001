@@ -1,0 +1,22 @@
+###demo-Project/project-2###
+
+Name_Database
+server-1
+Password_Database
+Natthpat080946.
+
+***Connect Database***
+psql 
+-h aws-0-ap-southeast-1.pooler.supabase.com 
+-p 6543 
+-d postgres 
+-U postgres.urtjcqkwzupijconszak
+
+***Install Prisma***
+npm install prisma -D
+npx prisma init
+npx prisma migrate dev --name init
+
+Times
+1.25
+2.25

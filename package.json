@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@prisma/client": "^6.5.0",
     "@tailwindcss/vite": "^4.0.12",
     "daisyui": "^5.0.0",
     "nuxt": "^3.16.0",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "apexcharts": "^4.5.0",
+    "prisma": "^6.5.0",
     "vue3-apexcharts": "^1.8.0"
   },
   "engines": {
